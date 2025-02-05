@@ -1,0 +1,25 @@
+.product {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: #a0d187;
+}
+
+.product-is-red {
+  background: #cf9697;
+}
+
+.product-is-blue {
+  background: #c0d9d9;
+}
+
+.product-text-hidden {
+  display: none;
+}
+
+.product-text-visible {
+  display: flex;
+}
